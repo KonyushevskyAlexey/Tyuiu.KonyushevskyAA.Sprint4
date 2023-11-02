@@ -39,7 +39,7 @@ namespace Tyuiu.KonyushevskyAA.Sprint4.Task2.V14
 
             for (int i = 0; i <= len - 1; i++)
             {
-                lol[i] = rnd.Next(5, 20);
+                lol[i] = rnd.Next(1, 9);
             }
 
             Console.WriteLine("Массив: ");
